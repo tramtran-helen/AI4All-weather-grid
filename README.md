@@ -1,6 +1,6 @@
 # Health Facility Resilience to Power Outages in the United States
 
-Developed a two-part AI model that forecasts electricity demand and detects power grid fault risk for U.S. health facilities during natural disasters. Applied regression, classification, and real-time weather APIs as part of AI4ALL’s Ignite accelerator on health system resilience.
+Developed a two-part machine learning model that forecasts electricity demand and detects power grid fault risk for U.S. health facilities during natural disasters. Applied regression, classification, and real-time weather APIs as part of AI4ALL’s Ignite accelerator on health system resilience.
 
 <div>
     <a href="https://www.loom.com/share/54374adc48184bd3bb7ed054d1a96d50">
