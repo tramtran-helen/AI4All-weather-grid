@@ -20,49 +20,46 @@ Natural disasters have historically posed a significant threat to the U.S. elect
 
 To develop a robust prediction system for health facility power resilience, we combined multiple data sources and machine learning techniques:
 
-- **Data Collection and Processing**:
+- ***Data Collection and Processing***:
 Integrated real-time weather data via the Open-Meteo API, geographic coordinates from Nominatim, and historical energy consumption datasets to capture environmental and operational factors impacting power usage.
 
-- **Energy Consumption Prediction Model**:
+- ***Energy Consumption Prediction Model***:
 Trained a Linear Regression model with standardized features including temperature, humidity, wind speed, and average past consumption to forecast daily electricity usage for the next 16 days.
 
-- **Fault Event Classification**:
+- ***Fault Event Classification***:
 Built a Random Forest classifier trained on grid asset data, incorporating electrical measurements (voltage, current, power, frequency) and load types, to predict the likelihood of fault events.
 
-- **Synthetic Data Generation**:
+- ***Synthetic Data Generation***:
 Created synthetic sensor data based on statistical properties of training data to complement predicted consumption, enabling realistic scenario analysis for fault prediction.
 
-- **Model Integration Pipeline**:
+- ***Model Integration Pipeline***:
 Developed a cohesive pipeline that takes user input for location and past consumption, fetches weather forecasts, predicts daily consumption, simulates sensor data, and outputs fault event predictions per day.
 
-- **Evaluation and Validation**:
+- ***Evaluation and Validation***:
 Employed standard metrics such as R² and RMSE for the regression model, and accuracy, precision, recall, and F1-score for the classifier to validate model performance.
 
 ## Data Sources 
 
-(UPDATE IN README.md)
-Include any relevant data sources that were used in your project.
+- [Weather and Renewable Energy Data](https://www.kaggle.com/code/samanemami/weather-and-renewable-energy-analysis/input)  
 
-*EXAMPLE:*
-*Kaggle Datasets: [Link to Kaggle Dataset](https://www.kaggle.com/datasets)*
+- [Smart Grid Asset Monitoring Dataset](https://www.kaggle.com/datasets/ziya07/smart-grid-asset-monitoring-dataset)  
 
 ## Technologies Used 
 
-(UPDATE IN README.md)
-List the technologies, libraries, and frameworks used in your project.
-
-*EXAMPLE:*
-- *Python*
-- *pandas*
-- *OpenAI API*
-
+- Python  
+- pandas  
+- numpy  
+- scikit-learn
+- joblib  
+- pickle  
+- requests  
+- requests-cache  
+- retry-requests  
+- openmeteo-requests  
+- Streamlit (for frontend user interface) 
 
 ## Authors 
 
-(UPDATE IN README.md)
-List the names and contact information (e.g., email, GitHub profiles) of the authors or contributors.
-
-*EXAMPLE:*
 *This project was completed in collaboration with:*
 - *John Doe ([john.doe@example.com](mailto:john.doe@example.com))*
 - *Jane Smith ([jane.smith@example.com](mailto:jane.smith@example.com))*
