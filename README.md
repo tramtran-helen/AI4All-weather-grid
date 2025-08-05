@@ -61,5 +61,7 @@ Employed standard metrics such as R² and RMSE for the regression model, and acc
 ## Authors 
 
 *This project was completed in collaboration with:*
-- *John Doe ([john.doe@example.com](mailto:john.doe@example.com))*
-- *Jane Smith ([jane.smith@example.com](mailto:jane.smith@example.com))*
+- *David Ningtang ([djnintang@gmail.com](mailto:djnintang@gmail.com))*
+- *Chelsea Ross ([Chelsearosscr21@gmail.com](mailto:Chelsearosscr21@gmail.com))*
+- *Sumodha Pokhrel ([sp230@rice.edu](mailto:sp230@rice.edu))*
+- *Gulzira Abudula ([gzabudula21@gmail.com](gzabudula21@gmail.com))*
