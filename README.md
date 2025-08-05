@@ -41,8 +41,8 @@ Employed standard metrics such as R² and RMSE for the regression model, and acc
 ## Data Sources 
 
 - [Weather and Renewable Energy Data](https://www.kaggle.com/code/samanemami/weather-and-renewable-energy-analysis/input)  
-
-- [Smart Grid Asset Monitoring Dataset](https://www.kaggle.com/datasets/ziya07/smart-grid-asset-monitoring-dataset)  
+- [Smart Grid Asset Monitoring Dataset](https://www.kaggle.com/datasets/ziya07/smart-grid-asset-monitoring-dataset)
+- [Open-Meteo Forecast API](https://open-meteo.com/en/docs)
 
 ## Technologies Used 
 
