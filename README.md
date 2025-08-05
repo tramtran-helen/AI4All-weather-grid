@@ -2,6 +2,15 @@
 
 Developed a two-part AI model that forecasts electricity demand and detects power grid fault risk for U.S. health facilities during natural disasters. Applied regression, classification, and real-time weather APIs as part of AI4ALL’s Ignite accelerator on health system resilience.
 
+<div>
+    <a href="https://www.loom.com/share/54374adc48184bd3bb7ed054d1a96d50">
+      <p>Video Walkthrough</p>
+    </a>
+    <a href="https://www.loom.com/share/54374adc48184bd3bb7ed054d1a96d50">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/54374adc48184bd3bb7ed054d1a96d50-b48bf543163c04c2-full-play.gif">
+    </a>
+  </div>
+  
 ## Problem Statement 
 
 Natural disasters have historically posed a significant threat to the U.S. electricity supply, frequently causing widespread power outages. Severe weather is the primary reason behind most large-scale blackouts, with states like Florida, California, New York, and Michigan experiencing millions of affected customers. The risk to the grid is further compounded by the potential for electromagnetic events and cyber-physical attacks, which have historically contributed to a substantial portion of outages and could prolong disruptions, especially if they coincide with a natural disaster. By leveraging machine learning, energy and weather data, this project aims to strengthen the resilience of healthcare infrastructure during emergencies, ensuring uninterrupted care.
