@@ -57,7 +57,7 @@ Employed standard metrics such as R² and RMSE for the regression model, and acc
 
 - Python  
 - pandas  
-- numpy  
+- NumPy  
 - scikit-learn
 - joblib  
 - pickle  
